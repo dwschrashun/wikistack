@@ -4,18 +4,31 @@
   <h3>Add a Page</h3>
   <hr>
   <form method="POST" action="/wiki/">
-    PLACEHOLDER FOR AUTHOR NAME FIELD
+    <div class="form-group">
+      <label for="name">author name</label>
+      <input name="name" type="text" class="form-control"/>
+    </div>
     
-    PLACEHOLDER FOR AUTHOR EMAIL FIELD
+    <div class="form-group">
+      <label for="email">author email</label>
+      <input name="email" type="text" class="form-control"/>
+    </div>
     
     <div class="form-group">
       <label for="title">page title</label>
       <input name="title" type="text" class="form-control"/>
     </div>
     
-    PLACEHOLDER FOR CONTENT TEXTAREA FIELD
+    <div class="form-group">
+      <label for="content">page content</label>
+      <textarea name="content" type="text" class="form-control"/></textarea>
+      
+    </div>
 
-    PLACEHOLDER FOR TAGS INPUT FIELD
+    <div class="form-group">
+      <label for="tags">page tags</label>
+      <input name="tags" type="text" class="form-control"/>
+    </div>
 
     <button type="submit" class="btn btn-primary">submit</button>
   </form>
